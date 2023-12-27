@@ -21,7 +21,7 @@ require("dotenv").config();
 const PORT=process.env.PORT || 8070;
 
 //json means key value pairs. 
-//in package.json file
+//got to package.json file and read below row
 //key is the name, value is "backend" , like every row--__--
 //using declared dependencies
 app.use(cors());
@@ -40,6 +40,7 @@ mongoose.connect(URL, {
     useNewUrlParser:true,
     //useUnifiedTopologyL :true,
     //useFindAndModify:false
+    //these arent support anyomore
 });
 
 //openning the connection that created above

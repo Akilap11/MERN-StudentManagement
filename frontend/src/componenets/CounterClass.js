@@ -1,5 +1,5 @@
 import React from "react";
-//const express=require("express") like this above here
+//const express=require("express") was like this in backend above here
 
 class CounterClass extends React.Component{
     constructor(){

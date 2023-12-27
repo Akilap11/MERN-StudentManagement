@@ -1,0 +1,12 @@
+npx create-react-app frontend
+//we cant use capital letters
+======npm start
+
+public index.html to src index.js to app.js
+so index.js already connected to app.js. 
+all we have to do is modify app.js
+
+components: parts of the page
+src needs only app.css, app.js, index.js
+
+create components folder and add files you want

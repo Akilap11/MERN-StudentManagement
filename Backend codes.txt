@@ -1,0 +1,54 @@
+FRONTED------------------
+
+
+BACKEND------------------
+node --version
+npm init
+npm install express mongoose dotenv cors
+edit server.js
+
+connect to mongo db
+paste connection string and change password- MY NAME!
+
+create .env file and paste mongo url
+
+copy that MONGODB_URL to server.js
+
+finish server.js except studentRouter for now
+
+//change package.js server likie below to start the server.js
+//"start":"node server.js"
+then 
+========npm start
+
+now db conncted. 
+
+//EXTRA!!
+//npm install nodemon
+//if we change the code, server will restart automatically
+//then add the dev config to package.json
+//then just type,
+==========npm run dev 
+to run the server
+
+next--> routes and models
+
+MODELS---
+create a file in models
+student.js(all)
+
+ROUTES------
+add the studentRouter to server.js
+create students.js in routes
+
+POSTMAN
+copy this link
+http://localhost:8070/student/add
+go to body
+name,age,gender data pass them
+choose raw
+choose json
+add values in json format
+choose POST and Send
+
+BACKEND DONE
